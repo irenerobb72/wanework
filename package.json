@@ -1,0 +1,19 @@
+{
+  "name": "wanework",
+  "version": "1.0.0",
+  "description": "cool app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenerobb72/wanework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenerobb72/wanework/issues"
+  },
+  "homepage": "https://github.com/irenerobb72/wanework#readme"
+}
