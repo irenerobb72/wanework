@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/irenerobb72/wanework#readme",
   "devDependencies": {
-    "babel-preset-es2015": "^6.5.0"
+    "babel-preset-es2015": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }
