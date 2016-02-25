@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/irenerobb72/wanework/issues"
   },
-  "homepage": "https://github.com/irenerobb72/wanework#readme"
+  "homepage": "https://github.com/irenerobb72/wanework#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0"
+  }
 }
