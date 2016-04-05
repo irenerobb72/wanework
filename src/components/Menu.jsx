@@ -10,11 +10,13 @@ export class Carticon extends Component {
   }
   render() {
     return (
-      <h1>WANEWORK</h1>
-      <a href="#">MAGIC</a>
-      <a href="#">MY FEED</a>
-      <a href="#">TRENDING</a>
-      <input type="text" name="name" placeholder="Find amazing products"></input>
+      <div className="menuBar">
+        <h1>WANEWORK</h1>
+        <a href="#">MAGIC</a>
+        <a href="#">MY FEED</a>
+        <a href="#">TRENDING</a>
+        <input type="text" name="name" placeholder="Find amazing products"></input>
+      </div>
     )
   }
 }
