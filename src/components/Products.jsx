@@ -54,4 +54,4 @@ function mapStateToProps(state) {
   }
 }
 
-export const ProductsContainer = connect(mapStateToProps, productMovement)(Products)
+export const ProductsContainer = connect(mapStateToProps)(Products)

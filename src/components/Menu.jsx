@@ -20,4 +20,10 @@ export class Menu extends Component {
   }
 }
 
-reactMixin(Menu.prototype, PureRenderMixin)
+function mapStateToProps(state) {
+  return {
+    menu: state.get('menu')
+  }
+}
+
+export const MenuContainer = connect(mapStateToProps)(Menu)
