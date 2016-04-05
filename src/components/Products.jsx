@@ -46,4 +46,12 @@ export class Products extends Component {
   }
 }
 
-reactMixin(Products.prototype, PureRenderMixin)
+
+
+function mapStateToProps(state) {
+  return {
+    products: state.get('products')
+  }
+}
+
+export const ProductsContainer = connect(mapStateToProps, productMovement)(Products)
