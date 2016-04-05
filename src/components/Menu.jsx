@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 import * as productMovement from '../product-movement'
 
-export class Carticon extends Component {
+export class Menu extends Component {
   constructor(props) {
     super(props)
   }
@@ -20,12 +20,3 @@ export class Carticon extends Component {
     )
   }
 }
-
-function mapStateToProps(state) {
-  return {
-    products: state.get('products')
-  }
-}
-
-export const CarticonContainer = connect(mapStateToProps, productMovement)(Carticon)
-Status API Training Shop Blog About
